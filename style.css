@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(141, 193, 246);
+    color: yellow;
+}
+
+.simpsons-quote {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 2rem;
+    
+    
+}
+
+.simpsons-quote img {
+    height: 400px;
+    padding: 1rem;
+}
+
+.simpsons-quote h3 {
+    padding: .5rem;
+}
+
+.simpsons-quote p {
+    padding: 1rem;
+}
+
+.reload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: .5rem;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(81, 18, 18);
+}
